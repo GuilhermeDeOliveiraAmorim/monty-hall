@@ -1,5 +1,7 @@
 .area {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: var(--area-porta-largura);
     height: var(--area-porta-altura);
 }
@@ -23,4 +25,10 @@
 
 .numero {
     font-size: 3rem;
+}
+
+.chao {
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
 }
